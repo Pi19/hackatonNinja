@@ -1,6 +1,6 @@
 public class Andrana {
 
-	public static int findNetworkEndpoint(int startingNode, int[] fromIds, int[] toIds)
+	public static int find(int startingNode, int[] fromIds, int[] toIds)
 	{
 		if ((fromIds.length <=0)|| (toIds.length>10000)) {
 			return 0;
