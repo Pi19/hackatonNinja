@@ -1,0 +1,5 @@
+transaction_id,account_number,transaction_date,
+transaction_type,transaction_amount
+45673,9947383,13/10/2020-09:44,D,1000.47
+473,9753835,17/11/2020-09:44,D,104.44
+73,9383545,13/04/2020-09:44,D,140.46
