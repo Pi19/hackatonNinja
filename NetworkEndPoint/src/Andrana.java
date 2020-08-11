@@ -22,7 +22,7 @@ public class Andrana {
 				indexNode = oldIndex;
 				break;
 			}
-			if(startSearch)             // la recherche a commencé
+			if(startSearch)
 			{
 				startSearch = false;
 			}
@@ -52,8 +52,6 @@ public class Andrana {
 
 		return -1 ;
 
-		//Arrays.binarySearch(ints, k);
-
 	}
 
 	public static void main(String[] args) {
@@ -69,7 +67,7 @@ public class Andrana {
 			System.out.println("from : " + fromIds[i] + " -> " + toIds[i]);
 		}
 
-		int endPointId = findNetworkEndpoint(startNodeId, fromIds, toIds);
+		int endPointId = find(startNodeId, fromIds, toIds);
 		System.out.println("L'ID du dernier noeud : "+endPointId);
 	}
 
