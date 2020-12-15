@@ -30,7 +30,7 @@ public class Solution {
 	}
 
 	public static void main(String[] args) {
-		int [] array = {1,6,4,8,-3};
+		int [] array = {1,6,4,8,-3,9};
 		System.out.println(find(array));
 
 	}
